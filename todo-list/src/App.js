@@ -1,10 +1,10 @@
 import './App.css';
-import Greet from "./greeting"
+import List from "./greeting"
 function App() {
   return (
   <>  
-     <h1>Hello World</h1>
-     <Greet />
+     
+     <List />
   </>
   
   );

@@ -1,5 +1,5 @@
 
-function Greet() {
+function list() {
     return (
         <>
         <h1>ToDo List</h1>
@@ -19,4 +19,4 @@ function Greet() {
 
 }
 
-export default Greet
+export default list
