@@ -17,9 +17,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div style={{ display: 'flex', margin: 20 }}>
-          <img src={firstDieImage} className="die" alt="Die one" />
-          <img src={secondDieImage} className="die" alt="Die two" />
+        <span>Die1: {firstDieResult} Die2: {secondDieResult}</span>
+        
+        
+          
         </div>
+        <br></br>
         <span>{firstDieResult + secondDieResult}</span>
         <button className="button" onClick={rollDice}>Roll</button>
       </header>
